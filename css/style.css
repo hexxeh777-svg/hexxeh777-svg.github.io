@@ -1,0 +1,242 @@
+    body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #1e1e1e;
+        color: #e0e0e0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+	.navbar {
+		width: 100%;
+		background: #2d2d2d;
+		padding: 15px 0;
+		box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+		position: sticky;
+		top: 0;
+		z-index: 100;
+	}
+
+	.nav-container {
+		width: 90%;
+		max-width: 800px;
+		display: flex;
+		justify-content: center;
+		align-items: center;    
+		margin: 0 auto;          
+		gap: 30px;               
+	}
+
+	.nav-link {
+		color: #a0d8f1;
+		text-decoration: none;
+		font-size: 1.1em;
+		font-weight: 500;
+		padding: 8px 16px;
+		border-radius: 6px;
+		transition: background 0.3s ease;
+	}
+
+	.nav-link:hover {
+		background: #3a3a3a;
+	}
+
+    .container {
+        width: 90%;
+        max-width: 800px;
+        padding: 30px;
+        background: #2d2d2d;
+        border-radius: 12px;
+        margin: 20px auto;
+        box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+        color: #a0d8f1;
+        text-align: center;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.2em;
+        text-align: center;
+        color: #aaa;
+        margin: 15px 0;
+    }
+
+    .projects {
+        margin: 30px 0;
+    }
+
+    .project-link {
+        display: block;
+        padding: 15px;
+        margin: 10px 0;
+        background: #3a3a3a;
+        color: #a0d8f1;
+        text-decoration: none;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 1.3em;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .project-link:hover {
+        background: #4a4a4a;
+        transform: translateY(-2px);
+    }
+
+    .highlight {
+        color: #a0d8f1;
+        font-weight: bold;
+    }
+
+    /* === Новый стиль для карточки проекта === */
+    .project-card {
+        background: #3a3a3a;
+        border: 1px solid #555;
+        padding: 16px;
+        margin: 16px 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+    .project-card h3 {
+        margin: 0 0 8px 0;
+        color: #a0d8f1;
+        font-size: 1.4em;
+    }
+    .project-card p {
+        margin: 8px 0;
+        font-size: 1em;
+        color: #e0e0e0;
+    }
+    .project-card ul {
+        margin: 8px 0;
+        font-size: 0.95em;
+        color: #ccc;
+    }
+    .project-card ul li {
+        margin: 4px 0;
+    }
+    .project-card a {
+        color: #a0d8f1;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 8px;
+    }
+    .project-card a:hover {
+        text-decoration: underline;
+    }
+    /* ======================================== */
+
+    .footer {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 0.9em;
+        color: #777;
+    }
+
+    .tagline {
+        font-style: italic;
+        color: #bbb;
+        margin-top: 20px;
+    }
+
+	/* === Новый стиль для футера === */
+    .page-footer {
+        width: 100%;
+        background: #2d2d2d;
+        padding: 20px 0;
+        margin-top: 30px;
+        border-top: 1px solid #444;
+    }
+
+    .footer-container {
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-link {
+        color: #a0d8f1;
+        text-decoration: none;
+        font-size: 0.95em;
+        padding: 6px 12px;
+        border-radius: 4px;
+        transition: background 0.3s ease;
+    }
+
+    .footer-link:hover {
+        background: #3a3a3a;
+    }
+
+    .footer-bottom {
+        font-size: 0.85em;
+        color: #777;
+        text-align: center;
+        padding-top: 10px;
+        border-top: 1px solid #444;
+        width: 100%;
+    }
+	/* ======================================== */
+
+	/* Верх карточки е-коммерц */
+        
+	.project-card {
+		background: #3a3a3a; /* Светло-серый фон карточки */
+		border: 1px solid #555; /* Лёгкая обводка */
+		padding: 16px;
+		margin: 16px 0;
+		border-radius: 8px;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Тень */
+	}
+	
+	.project-card h3 {
+		margin: 0 0 8px 0;
+		color: #a0d8f1; /* Голубой заголовок */
+		font-size: 1.4em;
+	}
+	
+	.project-card p {
+		margin: 8px 0;
+		font-size: 1em;
+		color: #e0e0e0; /* Светлый текст */
+	}
+	
+	.project-card ul {
+		margin: 8px 0;
+		font-size: 0.95em;
+		color: #ccc; /* Светло-серый для списка */
+	}
+	
+	.project-card ul li {
+		margin: 4px 0;
+	}
+	
+	.project-card a {
+		color: #a0d8f1; /* Голубая ссылка */
+		text-decoration: none;
+		font-weight: bold;
+		display: inline-block;
+		margin-top: 8px;
+	}
+	
+	.project-card a:hover {
+		text-decoration: underline;
+	}

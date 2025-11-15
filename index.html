@@ -3,166 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
     <title>hexxeh777-svg | Инструменты для обучения, вдохновения и портфолио</title>
-    <style>
-        
-    body {
-        font-family: 'Segoe UI', Arial, sans-serif;
-        background: #1e1e1e;
-        color: #e0e0e0;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 100vh;
-    }
-
-    .container {
-        width: 90%;
-        max-width: 800px;
-        padding: 30px;
-        background: #2d2d2d;
-        border-radius: 12px;
-        margin: 40px auto;
-        box-shadow: 0 0 15px rgba(0,0,0,0.6);
-    }
-
-    h1 {
-        color: #a0d8f1;
-        text-align: center;
-        font-size: 2.2em;
-        margin-bottom: 10px;
-    }
-
-    p {
-        font-size: 1.2em;
-        text-align: center;
-        color: #aaa;
-        margin: 15px 0;
-    }
-
-    .projects {
-        margin: 30px 0;
-    }
-
-    .project-link {
-        display: block;
-        padding: 15px;
-        margin: 10px 0;
-        background: #3a3a3a;
-        color: #a0d8f1;
-        text-decoration: none;
-        border-radius: 8px;
-        text-align: center;
-        font-size: 1.3em;
-        transition: background 0.3s ease, transform 0.2s ease;
-    }
-
-    .project-link:hover {
-        background: #4a4a4a;
-        transform: translateY(-2px);
-    }
-
-    .highlight {
-        color: #a0d8f1;
-        font-weight: bold;
-    }
-
-    /* === Новый стиль для карточки проекта === */
-    .project-card {
-        background: #3a3a3a;
-        border: 1px solid #555;
-        padding: 16px;
-        margin: 16px 0;
-        border-radius: 8px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    }
-    .project-card h3 {
-        margin: 0 0 8px 0;
-        color: #a0d8f1;
-        font-size: 1.4em;
-    }
-    .project-card p {
-        margin: 8px 0;
-        font-size: 1em;
-        color: #e0e0e0;
-    }
-    .project-card ul {
-        margin: 8px 0;
-        font-size: 0.95em;
-        color: #ccc;
-    }
-    .project-card ul li {
-        margin: 4px 0;
-    }
-    .project-card a {
-        color: #a0d8f1;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        margin-top: 8px;
-    }
-    .project-card a:hover {
-        text-decoration: underline;
-    }
-    /* ======================================== */
-
-    .footer {
-        margin-top: 30px;
-        text-align: center;
-        font-size: 0.9em;
-        color: #777;
-    }
-
-    .tagline {
-        font-style: italic;
-        color: #bbb;
-        margin-top: 20px;
-    }
-
-/* Верх карточки е-коммерц */
-        
-.project-card {
-  background: #3a3a3a; /* Светло-серый фон карточки */
-  border: 1px solid #555; /* Лёгкая обводка */
-  padding: 16px;
-  margin: 16px 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Тень */
-}
-.project-card h3 {
-  margin: 0 0 8px 0;
-  color: #a0d8f1; /* Голубой заголовок */
-  font-size: 1.4em;
-}
-.project-card p {
-  margin: 8px 0;
-  font-size: 1em;
-  color: #e0e0e0; /* Светлый текст */
-}
-.project-card ul {
-  margin: 8px 0;
-  font-size: 0.95em;
-  color: #ccc; /* Светло-серый для списка */
-}
-.project-card ul li {
-  margin: 4px 0;
-}
-.project-card a {
-  color: #a0d8f1; /* Голубая ссылка */
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  margin-top: 8px;
-}
-.project-card a:hover {
-  text-decoration: underline;
-}
-
-    </style>
 </head>
 <body>
+
+<div class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="https://github.com/hexxeh777-svg/" class="nav-link">Профиль</a>
+        <a href="https://github.com/hexxeh777-svg?tab=repositories" class="nav-link">Репозитории</a>
+		<a href="#" class="nav-link">Документация</a>
+		<a href="#" class="nav-link">API</a>
+    </div>
+</div>
+
+<br>
 
 <div class="project-card">
   <h3>e-commerce-architecture-demo</h3>
@@ -208,15 +64,19 @@
         </p>
     </div>
 
-    <div class="footer">
-        Сделано с душой. Без сервера. Только ты и твой код.
-    </div>
+    <!-- === Новый футер === -->
+    <footer class="page-footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <!-- Ссылки добавлю позже -->
+                <!-- Пример: <a href="#" class="footer-link">Ссылка 1</a> -->
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 hexxeh777-svg. Все права защищены.
+            </div>
+        </div>
+    </footer>
+    <!-- =================== -->
 
 </body>
 </html>
-
-
-
-
-
-
