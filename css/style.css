@@ -49,6 +49,18 @@
 		background: #3a3a3a;
 	}
 
+	.nav-icon {
+    	display: flex;
+    	align-items: center;
+   		 justify-content: center;
+   		 font-size: 1.2em; 
+	}
+
+	.nav-text {
+   		 display: flex;
+   		 align-items: center;
+	}
+
     .container {
         width: 90%;
         max-width: 800px;
@@ -246,5 +258,6 @@
 		text-decoration: underline;
 
 	}
+
 
 
