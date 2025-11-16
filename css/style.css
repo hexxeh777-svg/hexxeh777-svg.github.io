@@ -41,7 +41,8 @@
 		transition: background 0.3s ease;
 		display: flex;        
     	align-items: center; 
-    	gap: 6px;                  
+    	gap: 6px;   
+		vertical-align: middle;
 	}
 
 	.nav-link:hover {
@@ -245,4 +246,5 @@
 		text-decoration: underline;
 
 	}
+
 
