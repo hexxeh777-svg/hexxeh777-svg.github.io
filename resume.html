@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Денис — Заместитель начальника цеха</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --card-bg: #1e1e1e;
+      --text: #f0f0f0;
+      --text-secondary: #aaa;
+      --accent: #4caf50;
+      --border: #333;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(90deg, #4caf50, #8bc34a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .meta {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+    }
+    h2::before {
+      content: "▸";
+      margin-right: 0.5rem;
+    }
+    .experience-item, .skill-category {
+      background: var(--card-bg);
+      padding: 1.2rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      border-left: 3px solid var(--accent);
+    }
+    .job-title {
+      font-weight: bold;
+      font-size: 1.15rem;
+      margin-bottom: 0.3rem;
+    }
+    .company {
+      color: var(--text-secondary);
+      font-style: italic;
+      margin-bottom: 0.4rem;
+    }
+    .date {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.6rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+    .skill-tag {
+      background: rgba(76, 175, 80, 0.15);
+      color: var(--accent);
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .contacts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-secondary);
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Денис</h1>
+      <div class="meta">Заместитель начальника цеха по производству (металлургия, медь, Аусмельт)</div>
+      <div class="meta">Опыт: 2 года 10 месяцев | ЗП: 200 000 ₽ на руки</div>
+      <div class="contacts">
+        <div class="contact-item">📱 +7 999 587-96-47</div>
+        <div class="contact-item">✉️ hexxeh777@gmail.com</div>
+      </div>
+    </header>
+
+    <section>
+      <h2>О себе</h2>
+      <div class="experience-item">
+        <p>Более 3 лет непрерывного опыта на АО «Карабашмедь» — от железнодорожного участка до шихтового цеха в металлургии. Глубоко понимаю технологическую цепочку производства меди: приём руды → транспортировка → сернокислотное производство → подготовка шихты для Аусмельт.</p>
+        <p>Ценю дисциплину, промышленную безопасность и стабильную работу без простоев. Уверен, что заместитель начальника цеха должен знать производство «изнутри» — и я готов внести такой вклад.</p>
+        <p>Готов пройти аттестацию в Ростехнадзоре и развиваться вместе с командой.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Опыт работы</h2>
+      
+      <div class="experience-item">
+        <div class="job-title">Шихтовщик 3 разряда</div>
+        <div class="company">АО «Карабашмедь»</div>
+        <div class="date">Октябрь 2024 — Октябрь 2025 (1 год 1 месяц)</div>
+        <ul>
+          <li>Подготовка и дозировка шихты для печи Аусмельт согласно технологическим регламентам.</li>
+          <li>Контроль качества сырья, работа с весовым оборудованием.</li>
+          <li>Строгое соблюдение требований промышленной безопасности.</li>
+          <li>Взаимодействие с операторами печи для обеспечения бесперебойной подачи шихты.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="job-title">Ученик шихтовщика</div>
+        <div class="company">АО «Карабашмедь»</div>
+        <div class="date">Сентябрь 2024 — Октябрь 2024 (2 месяца)</div>
+        <ul>
+          <li>Приём, хранение и отгрузка серной кислоты.</li>
+          <li>Ведение складской документации, контроль остатков.</li>
+          <li>Соблюдение требований химической безопасности при работе с агрессивными веществами.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="job-title">Дежурный ж/д поста</div>
+        <div class="company">АО «Карабашмедь»</div>
+        <div class="date">Ноябрь 2021 — Июнь 2023 (1 год 8 месяцев)</div>
+        <ul>
+          <li>Организация подачи/уборки железнодорожных составов с рудой.</li>
+          <li>Оформление сопроводительной документации, контроль безопасности на посту.</li>
+          <li>Взаимодействие с диспетчерской и производственными цехами.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Навыки</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Контроль качества сырья</span>
+        <span class="skill-tag">Работа с 1С</span>
+        <span class="skill-tag">Организация сменной работы</span>
+        <span class="skill-tag">Медеплавильное производство</span>
+        <span class="skill-tag">Печь Аусмельт</span>
+        <span class="skill-tag">Подготовка шихты</span>
+        <span class="skill-tag">Промышленная безопасность</span>
+        <span class="skill-tag">Охрана труда</span>
+        <span class="skill-tag">Серная кислота</span>
+        <span class="skill-tag">Ж/д перевозки</span>
+        <span class="skill-tag">Складская логистика</span>
+        <span class="skill-tag">Обучение персонала</span>
+        <span class="skill-tag">Координация бригады</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Образование</h2>
+      <div class="experience-item">
+        Среднее специальное образование<br>
+        Курсы по профессии «Начальник цеха»
+      </div>
+    </section>
+  </div>
+</body>
+</html>
